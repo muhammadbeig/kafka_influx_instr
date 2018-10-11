@@ -27,15 +27,17 @@ Steps to get kafka consumer running and pushing data to influx db with a grafana
 
 4) Run the kafka console producer using a csv file with 5 columns of data as shown below:
 
-	5.5,6.6,0.43,0.54,1
+	
 
-	2.0,2.5,0.33,0.44,0
+			5.5,6.6,0.43,0.54,1
 
-	3.5,4.6,0.13,0.24,0
+			2.0,2.5,0.33,0.44,0
 
-	10.5,11.6,0.23,0.44,0
+			3.5,4.6,0.13,0.24,0
 
-	15.5,16.6,0.43,0.64,1
+			10.5,11.6,0.23,0.44,0
+
+			15.5,16.6,0.43,0.64,1
 
 
 You should now be able to see data in the grafana dashboard charts.
