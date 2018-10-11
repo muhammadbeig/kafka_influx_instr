@@ -1,4 +1,4 @@
-# kafka_influx_instr
+# Instructions (Kafka Consume pushing events data to grafana)
 
 Steps to get kafka consumer running and pushing data to influx db with a grafana dashboard:
 
